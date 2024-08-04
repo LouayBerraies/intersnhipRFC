@@ -17,10 +17,10 @@
 	<distributionManagement>
 		<repository>
 			<id>pipelinerepo</id>
-			<name>pipelinerepo</name>
 			<url>http://localhost:8081/repository/pipelinerepo/</url>
 		</repository>
 	</distributionManagement>
+
 
 	<properties>
 		<java.version>17</java.version>
