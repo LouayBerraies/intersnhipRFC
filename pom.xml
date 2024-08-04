@@ -16,11 +16,12 @@
 	<description>Demo project for Spring Boot</description>
 	<distributionManagement>
 		<repository>
-			<id>deploymentRepo</id>
-			<name>Nexus Repository</name>
+			<id>maven-releases</id>
+			<name>Maven Releases Repository</name>
 			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
+
 	<properties>
 		<java.version>17</java.version>
 		<sonar.projectKey>sqp_f6be3520fdbcfacf3512e59fccd52c62f063f0d2</sonar.projectKey>
