@@ -16,9 +16,9 @@
 	<description>Demo project for Spring Boot</description>
 	<distributionManagement>
 		<repository>
-			<id>maven-releases</id>
-			<name>Maven Releases Repository</name>
-			<url>http://localhost:8081/repository/maven-releases/</url>
+			<id>pipelinerepo</id>
+			<name>pipelinerepo</name>
+			<url>http://localhost:8081/repository/pipelinerepo/</url>
 		</repository>
 	</distributionManagement>
 
