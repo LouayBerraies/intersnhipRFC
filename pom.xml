@@ -178,6 +178,14 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>3.1.0-M1</version>
+				<configuration>
+					<altDeploymentRepository>internal.repo::default::http://localhost:8081/repository/maven-releases/</altDeploymentRepository>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
