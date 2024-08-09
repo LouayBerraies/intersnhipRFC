@@ -21,11 +21,6 @@
 			<name>Nexus Repository</name>
 			<url>http://localhost:8081/repository/maven-releases/</url>
 		</repository>
-		<snapshotRepository>
-			<id>pipelinerepo-snapshots</id>
-			<name>Nexus Snapshot Repository</name>
-			<url>http://localhost:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 	<properties>
@@ -152,6 +147,28 @@
 
 	<build>
 		<plugins>
+			<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>0.8.7</version> <!-- Use the latest stable version -->
+				<executions>
+					<!-- Prepare agent for coverage -->
+					<execution>
+						<id>prepare-agent</id>
+						<goals>
+							<goal>prepare-agent</goal>
+						</goals>
+					</execution>
+					<!-- Generate coverage report -->
+					<execution>
+						<id>report</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
