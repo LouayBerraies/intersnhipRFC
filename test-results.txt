@@ -120,3 +120,87 @@ Details: Trajet ID: 1
 Test: testGetAllTrajets - PASSED
 Details: Retrieving all trajets | Result size: 2
 
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
+Test: testGetTrajetById - PASSED
+Details: Requested Trajet ID: 1 | Found Trajet ID: 1
+
+Test: testDeleteTrajet - PASSED
+Details: Trajet ID to delete: 1
+
+Test: testSaveTrajet - PASSED
+Details: Trajet ID: 1
+
+Test: testGetAllTrajets - PASSED
+Details: Retrieving all trajets | Result size: 2
+
